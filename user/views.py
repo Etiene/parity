@@ -6,3 +6,19 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse("See user")
+
+
+def login(request):
+    return HttpResponse("Login")
+
+
+def logout(request):
+    return HttpResponse("Logout")
+
+
+def update(request):
+    return HttpResponse("Update user")
+
+
+def register(request):
+    return HttpResponse("Create new user")
