@@ -8,14 +8,6 @@ def index(request):
     return HttpResponse("See user")
 
 
-def login(request):
-    return HttpResponse("Login")
-
-
-def logout(request):
-    return HttpResponse("Logout")
-
-
 def update(request):
     return HttpResponse("Update user")
 
